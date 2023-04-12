@@ -1,0 +1,6 @@
+<ui texture="mode_menu.png" selected="mode_menu_select.png">
+	<rect group="1" id="0" coords="195 154 974 1005" cmd="script:mode training"/>
+	<rect group="1" id="1" selected="true" coords="975 154 1754 1005" cmd="script:mode classic"/>
+	<rect group="1" id="2" coords="1755 154 2534 1005" cmd="script:mode expert"/>
+	<outside cmd="script:hidemode"/>
+</ui>

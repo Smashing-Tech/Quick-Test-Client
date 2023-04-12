@@ -1,0 +1,9 @@
+<game>
+	<levels>
+		<level name="levels/basic"/>
+		<level name="levels/basic"/>
+		<level name="levels/basic"/>
+		<level name="levels/basic"/>
+	</levels>
+</game>
+

@@ -1,0 +1,25 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: QuickTest142_30100.apk
+compressionType: false
+doNotCompress:
+- resources.arsc
+- png
+- mp3
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '9'
+  targetSdkVersion: '26'
+sharedLibrary: false
+sparseResources: false
+unknownFiles: {}
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.7.0
+versionInfo:
+  versionCode: '30100'
+  versionName: 3.1.0

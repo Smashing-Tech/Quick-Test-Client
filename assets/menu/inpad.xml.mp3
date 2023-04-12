@@ -1,0 +1,27 @@
+<ui texture="inpad.png" shade="true">
+	<!-- feild select -->
+	<rect coords="27 55 153 181" cmd="script:setfeild 1"/>
+	<rect coords="167 55 293 181" cmd="script:setfeild 2"/>
+	<rect coords="307 55 433 181" cmd="script:setfeild 3"/>
+	<rect coords="447 55 573 181" cmd="script:setfeild 4"/>
+	<!-- first row -->
+	<rect coords="40 220 190 340" cmd="script:handleinpad 1"/>
+	<rect coords="220 220 370 340" cmd="script:handleinpad 2"/>
+	<rect coords="400 220 550 340" cmd="script:handleinpad 3"/>
+	<!-- second row -->
+	<rect coords="40 360 190 480" cmd="script:handleinpad 4"/>
+	<rect coords="220 360 370 480" cmd="script:handleinpad 5"/>
+	<rect coords="400 360 550 480" cmd="script:handleinpad 6"/>
+	<!-- third row -->
+	<rect coords="40 500 190 620" cmd="script:handleinpad 7"/>
+	<rect coords="220 500 370 620" cmd="script:handleinpad 8"/>
+	<rect coords="400 500 550 620" cmd="script:handleinpad 9"/>
+	<!-- last row -->
+	<rect coords="40 640 190 760" cmd="script:handleinpad _UNDO_"/>
+	<rect coords="220 640 370 760" cmd="script:handleinpad 0"/>
+	<rect coords="400 640 550 760" cmd="script:handleinpad _SUBMIT_"/>
+	<!-- UwU Knot126 is a fucking FURRY! :33 -->
+	<!-- Oh and FUCK PUTIN -->
+	<!-- and just one more: TRANS RIGHTS!! -->
+	<outside cmd="script:hideinpad"/>
+</ui>
