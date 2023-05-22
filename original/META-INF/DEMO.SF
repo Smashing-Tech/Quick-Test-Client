@@ -1,10 +1,10 @@
 Signature-Version: 1.0
 Created-By: 1.0 (Android)
-SHA1-Digest-Manifest: skWc+FgUHhEkrdiFFqUwBW5Ncm8=
+SHA1-Digest-Manifest: AV+2kf55IENKCa5P9NmXkG6D210=
 X-Android-APK-Signed: 2, 3
 
 Name: AndroidManifest.xml
-SHA1-Digest: N8UHBu8fm0uFWvCRTXF3HDo8l8w=
+SHA1-Digest: 0xghRh8xqgVa1ShJVtZL1I+f4zw=
 
 Name: assets/about/main.lua.mp3
 SHA1-Digest: PB4cgbJkAK2Kj3fSelgpDlJqfdw=
@@ -373,13 +373,19 @@ Name: assets/menu/button.png.mtx.mp3
 SHA1-Digest: BHm0p4RwFfCTGOst17b1CCmOc44=
 
 Name: assets/menu/button1.xml.mp3
-SHA1-Digest: f6WpRyLuNOnyvwwcdr0OTv6pmhY=
+SHA1-Digest: 9907/+bdyP74VcIXnP5j3YcKFnU=
 
 Name: assets/menu/button_pole.png.mtx.mp3
 SHA1-Digest: GjSIGDlpiH4J/SA51S23IK2GlGA=
 
 Name: assets/menu/button_select.png.mp3
-SHA1-Digest: 9f7OARuKIdZUxCNYFsHno4p6Bhg=
+SHA1-Digest: RKMDrQkPWASRCIxtFR1rmMGJm/Q=
+
+Name: assets/menu/button_select.png.mp3.old
+SHA1-Digest: xGntZ1uS1svg0eifgJpFID6mOG8=
+
+Name: assets/menu/button_select.svg
+SHA1-Digest: fEnuQojKQCPYYnTwTEQXvLswMjA=
 
 Name: assets/menu/camera_pan.ogg.mp3
 SHA1-Digest: TG7x7naw/E3wmmJMkpMEvBz/IAc=
@@ -388,7 +394,7 @@ Name: assets/menu/counting.ogg.mp3
 SHA1-Digest: xzhM5TaxLVLkJmX3kPKS60LzG8w=
 
 Name: assets/menu/debug.png.mp3
-SHA1-Digest: z3MM/jxKiuz6zrjmad05NXJHbxQ=
+SHA1-Digest: 19jkeKVOwSHNFq4kPJVXvj96pOs=
 
 Name: assets/menu/debug.xml.mp3
 SHA1-Digest: 61HgjTXuntgwNOye2LPCSia/UWM=
@@ -448,19 +454,19 @@ Name: assets/menu/hidemenu.ogg.mp3
 SHA1-Digest: Ma/5dHiyxskl1TA4xu8ixVk6mKg=
 
 Name: assets/menu/inpad.png.mp3
-SHA1-Digest: fS1tf4Kab44sVQ0nyf570scDc44=
+SHA1-Digest: UsIsl/IdZkXhqK+7hUJ0xVE51Yg=
 
 Name: assets/menu/inpad.png.mp3.png
 SHA1-Digest: SHItoZfSewar6Unc9+RE1ei0O4M=
 
 Name: assets/menu/inpad.svg
-SHA1-Digest: LZ9U/UYctQ4b9dGYNXfZFJOik/k=
+SHA1-Digest: 44y0YGRF0FJo+YHtPtjMc7opyF0=
 
 Name: assets/menu/inpad.xml.mp3
 SHA1-Digest: Kc0uU6+2oOL7fp5g1gqHpwApgUo=
 
 Name: assets/menu/inpad_debug.svg
-SHA1-Digest: uxKM7D+csdMwffkx0Xk1eE/S/jI=
+SHA1-Digest: 8fe9t/oCvNuP3G0aAEWJmfJQ5SY=
 
 Name: assets/menu/levels.xml.mp3
 SHA1-Digest: yToC8tGZU13CIKveRrgb4uV+WNU=
@@ -480,8 +486,14 @@ SHA1-Digest: Cg36+qT/77DA0uoOgQW1aJlK6PM=
 Name: assets/menu/loadingclick.ogg.mp3
 SHA1-Digest: kJDoibfpMwoPRNX3/TVzc9i4R4U=
 
-Name: assets/menu/logo.png.mtx.mp3
-SHA1-Digest: fL7BJxhLo6XrS7lN75bOtOnQJ/g=
+Name: assets/menu/logo.png.mp3
+SHA1-Digest: u5aW5Oni1uI+7fHJ9NahX5XZUEE=
+
+Name: assets/menu/logo.png.mtx.mp3.old
+SHA1-Digest: KKcMRLvNWkAq7kmM59yg1UWrgdI=
+
+Name: assets/menu/logo.svg
+SHA1-Digest: rTB6lLWkWZYRuBW+bOCQ5l3R++M=
 
 Name: assets/menu/logo_ball.png.mtx.mp3
 SHA1-Digest: yDsie6ROCHmOs1JHPueXYJGjdSw=
@@ -499,7 +511,7 @@ Name: assets/menu/logo_swoosh.ogg.mp3
 SHA1-Digest: X+OEfOoKDi1KijJ8bmy82sLUmQ0=
 
 Name: assets/menu/main.lua.mp3
-SHA1-Digest: DycFYbN5hIU3zX6nARayCKFPL2s=
+SHA1-Digest: VuR1nx/MsT3AChcF+TIcMAuJWEo=
 
 Name: assets/menu/menu_halo.png.mtx.mp3
 SHA1-Digest: AF3SoSYlYi+tqIvSR9tga45Pb8E=
@@ -522,11 +534,20 @@ SHA1-Digest: 5yIwMlWyH6JuCaNp63hloN5mLcI=
 Name: assets/menu/mode_menu.png.mtx.mp3
 SHA1-Digest: N7jX1DWLoM2n2hd90C5vK1U0T7s=
 
+Name: assets/menu/mode_menu.png.mtx.mp3.old
+SHA1-Digest: x9INpy5lWzPVHfRTwEzL8kRAtng=
+
 Name: assets/menu/mode_menu.xml.mp3
 SHA1-Digest: BdfNE/nyfX5gGmSYycymJUmGzJg=
 
+Name: assets/menu/mode_menu.xml.mp3.old
+SHA1-Digest: nVvB95ClO3fIcc8VmY8w1AQznPg=
+
 Name: assets/menu/mode_menu_select.png.mtx.mp3
 SHA1-Digest: ilyJ8FVqU9Zhxgk/j9UnHhjjPsA=
+
+Name: assets/menu/mode_menu_select.png.mtx.mp3.old
+SHA1-Digest: 7Bsb3YVNY2ffh26ffGAPInsFKNo=
 
 Name: assets/menu/modebutton.png.mtx.mp3
 SHA1-Digest: A58IlFPOv9dUOS+pSrg5o7Uh9iM=
@@ -715,10 +736,10 @@ Name: assets/menu/showmenu.ogg.mp3
 SHA1-Digest: ZPfHDsMTjdR+cEtLqNrk7fi2Iok=
 
 Name: assets/menu/start.png.mp3
-SHA1-Digest: egHkKM8CZH4Jq6McGwfSOz2Bs6Q=
+SHA1-Digest: He+LkyK5oXtL/NuEK6LDjbVB2Kg=
 
 Name: assets/menu/start.svg
-SHA1-Digest: 8MBwCFgcU1d6KoivUNEN9vVMY7Y=
+SHA1-Digest: G/Mkp40V0nW/FaXI71ISyvILYv0=
 
 Name: assets/menu/stats.png.mtx.mp3
 SHA1-Digest: C8VNz9RD+fCLcYzj+0J/ZSf1oLw=
@@ -1774,7 +1795,7 @@ Name: classes.dex
 SHA1-Digest: eFVZLh7QnxoPzVnrvw0GypT1Exw=
 
 Name: lib/arm64-v8a/libsmashhit.so
-SHA1-Digest: ElewruAQx8LnHiYZy6oMqx++RTU=
+SHA1-Digest: VoYkWB5CDQ1VI5cKq5PsTQ7oLNg=
 
 Name: lib/armeabi-v7a/libsmashhit.so
 SHA1-Digest: cTebP+DYyWScHxeqi/Dow87B7hw=

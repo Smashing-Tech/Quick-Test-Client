@@ -8,8 +8,8 @@
    version="1.1"
    id="svg5"
    inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
-   sodipodi:docname="start.svg"
-   inkscape:export-filename="start.png"
+   sodipodi:docname="button_select.svg"
+   inkscape:export-filename="button_select.png"
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
@@ -42,24 +42,9 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1">
-    <rect
-       style="fill:#006680;stroke-width:0.23151"
+    <path
        id="rect111"
-       width="77.787498"
-       height="77.787498"
-       x="5.1293944e-07"
-       y="0"
-       ry="38.893749" />
-    <text
-       xml:space="preserve"
-       style="font-size:22.5778px;font-family:Manrope;-inkscape-font-specification:Manrope;text-align:center;text-anchor:middle;fill:#d5f6ff;stroke-width:0.264583"
-       x="38.612629"
-       y="47.741409"
-       id="text275"><tspan
-         sodipodi:role="line"
-         id="tspan273"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.5778px;font-family:'Kumbh Sans';-inkscape-font-specification:'Kumbh Sans';fill:#d5f6ff;stroke-width:0.264583"
-         x="38.612629"
-         y="47.741409">Start</tspan></text>
+       style="fill:#55ddff;stroke-width:0.23151042;stroke-dasharray:none;opacity:0.6"
+       d="M 38.89375 0 C 17.346634 0 0 17.346634 0 38.89375 C 0 60.440865 17.346634 77.787499 38.89375 77.787499 C 60.440865 77.787499 77.787499 60.440865 77.787499 38.89375 C 77.787499 17.346634 60.440865 0 38.89375 0 z M 38.89375 3.6333699 C 58.428071 3.6333699 74.15413 19.359428 74.15413 38.89375 C 74.15413 58.428071 58.428071 74.15413 38.89375 74.15413 C 19.359428 74.15413 3.6333699 58.428071 3.6333699 38.89375 C 3.6333699 19.359428 19.359428 3.6333699 38.89375 3.6333699 z " />
   </g>
 </svg>

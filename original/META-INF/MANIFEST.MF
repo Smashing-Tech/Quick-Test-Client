@@ -1,7 +1,7 @@
 Manifest-Version: 1.0
 
 Name: AndroidManifest.xml
-SHA1-Digest: kBiWrcvTQg/+uC9M8jIaEeedOxs=
+SHA1-Digest: n4COMG6GHKCxqRFMgFEFUzKnFmY=
 
 Name: assets/about/main.lua.mp3
 SHA1-Digest: w1a48JeBc8M6OEZwfSaPjYccjYg=
@@ -370,13 +370,19 @@ Name: assets/menu/button.png.mtx.mp3
 SHA1-Digest: HNkVK0e9RrEm4wNzTutIlFWfjS8=
 
 Name: assets/menu/button1.xml.mp3
-SHA1-Digest: 6A1dAgRzsyZKFYOpIjkNDQ8G/qQ=
+SHA1-Digest: x+1/oJbr2Rco1O6AejoY72jHXnw=
 
 Name: assets/menu/button_pole.png.mtx.mp3
 SHA1-Digest: CscVEEzQIOIfhPmIoOfsfbtYU1o=
 
 Name: assets/menu/button_select.png.mp3
-SHA1-Digest: ZTUkk5zmXDfLvcGWg/ojooBH8xA=
+SHA1-Digest: N0/wR9bE8wMhXH2ye9zIuVjFXxE=
+
+Name: assets/menu/button_select.png.mp3.old
+SHA1-Digest: UFB+8ntgq/OHTkMDvbt0MrGF8ds=
+
+Name: assets/menu/button_select.svg
+SHA1-Digest: iEtVN/awiVwZvG8L7BApN3uZOUc=
 
 Name: assets/menu/camera_pan.ogg.mp3
 SHA1-Digest: OCKLRM8Nv6npr2VIB2denzuGDew=
@@ -385,7 +391,7 @@ Name: assets/menu/counting.ogg.mp3
 SHA1-Digest: fzA7yXDisWkVzxPxmcSkhDXaVZY=
 
 Name: assets/menu/debug.png.mp3
-SHA1-Digest: hULQckJZ67vFRfF2B81LsnB59wE=
+SHA1-Digest: POsrKZ8CMNPvrOJ8gPQRTNixe2A=
 
 Name: assets/menu/debug.xml.mp3
 SHA1-Digest: B3jPabEQCYuhWyMkSKyMZwQcFYM=
@@ -445,19 +451,19 @@ Name: assets/menu/hidemenu.ogg.mp3
 SHA1-Digest: qXHWpnKJYbDZ8NCd4R6YYUOH9RU=
 
 Name: assets/menu/inpad.png.mp3
-SHA1-Digest: s+zjZoJc3DWFxHVC9JcDlsYVHoc=
+SHA1-Digest: ZeqZLrmMHNm09ZrcKCFqu65eyzk=
 
 Name: assets/menu/inpad.png.mp3.png
 SHA1-Digest: xte3Zs41nn5fMcpNY5zmEudX5tU=
 
 Name: assets/menu/inpad.svg
-SHA1-Digest: wlHBFvkaFTcfo3ltcEEbBo01Ylk=
+SHA1-Digest: lpYfulHdN4SZeaRVsz3V69hB4bs=
 
 Name: assets/menu/inpad.xml.mp3
 SHA1-Digest: g7a5UxFnREW4Nzy41w43NnxTwdI=
 
 Name: assets/menu/inpad_debug.svg
-SHA1-Digest: Cb0uVIJ1I2dAeaVniDSAUs8+bg4=
+SHA1-Digest: bGNbZYPh9ekQSEwo/8MRxoeZjr4=
 
 Name: assets/menu/levels.xml.mp3
 SHA1-Digest: RhZXwjkbiPG5J4oye50J+sU51AQ=
@@ -477,8 +483,14 @@ SHA1-Digest: i3lY/Z8K9z9IJR7zTlKwnF/d/ec=
 Name: assets/menu/loadingclick.ogg.mp3
 SHA1-Digest: l+KgOHCWbMzKLjNEQbk9fqQuY6I=
 
-Name: assets/menu/logo.png.mtx.mp3
+Name: assets/menu/logo.png.mp3
+SHA1-Digest: CXwQHbbJHLz+yQvXlLNUJiUgIc0=
+
+Name: assets/menu/logo.png.mtx.mp3.old
 SHA1-Digest: UUNdZwh2hCn6pyXD9P3smYYzegE=
+
+Name: assets/menu/logo.svg
+SHA1-Digest: MmTLGYcUI/2yND0FWJzL5t2Rs8k=
 
 Name: assets/menu/logo_ball.png.mtx.mp3
 SHA1-Digest: sQRUJV2cBakUQzruigevUq1lhjs=
@@ -496,7 +508,7 @@ Name: assets/menu/logo_swoosh.ogg.mp3
 SHA1-Digest: pNvHLRUJaK7lnw+jvV3M7rcrINQ=
 
 Name: assets/menu/main.lua.mp3
-SHA1-Digest: ojtYXQSYK13QdABk2k2nSQ89LNU=
+SHA1-Digest: bPO7Mf67loSObarMtb3Pxuk2520=
 
 Name: assets/menu/menu_halo.png.mtx.mp3
 SHA1-Digest: N7WLJy46vmtAYmdjHqhaEtUpFJc=
@@ -519,11 +531,20 @@ SHA1-Digest: khcRs3cyIA25ra29b+ME0NqZ3Us=
 Name: assets/menu/mode_menu.png.mtx.mp3
 SHA1-Digest: YiJlwmYe4kq2AqyjNBWnN63/lac=
 
+Name: assets/menu/mode_menu.png.mtx.mp3.old
+SHA1-Digest: nOOnSCW5TxVyPCQUnF6RmpzrHLM=
+
 Name: assets/menu/mode_menu.xml.mp3
 SHA1-Digest: 6DZfaykgXrBn+QYQ44QiMl6xQrc=
 
+Name: assets/menu/mode_menu.xml.mp3.old
+SHA1-Digest: MS2LCjG/eBOrF8rBY44q7w9DZDI=
+
 Name: assets/menu/mode_menu_select.png.mtx.mp3
 SHA1-Digest: DMJhxZAQ8NBvI0J+P+rD/P/gtIE=
+
+Name: assets/menu/mode_menu_select.png.mtx.mp3.old
+SHA1-Digest: OBARfZcIm2NbAK1sW8OH6LngLtU=
 
 Name: assets/menu/modebutton.png.mtx.mp3
 SHA1-Digest: Qgb7b0FCzrGbikbVhFqYyCU5Ezg=
@@ -712,10 +733,10 @@ Name: assets/menu/showmenu.ogg.mp3
 SHA1-Digest: x5j8DYbmRKMu1+Tcts3zdVZj9+o=
 
 Name: assets/menu/start.png.mp3
-SHA1-Digest: 72AtQcWwfEsysDNBKvIP2RRMHMk=
+SHA1-Digest: Z/0g9xDW8Yv/LYe0cz1CHIiXd8g=
 
 Name: assets/menu/start.svg
-SHA1-Digest: VW8EmKG/vtWV+l9NmPaKGNfRWaQ=
+SHA1-Digest: xym+H3TFVifn80UO15emXIfRKhU=
 
 Name: assets/menu/stats.png.mtx.mp3
 SHA1-Digest: TssG/LFYzTGoPDD31QYf69kr2m4=
@@ -1771,7 +1792,7 @@ Name: classes.dex
 SHA1-Digest: NeOH6nOD9DQ/qQgt1z7ErOTBLC0=
 
 Name: lib/arm64-v8a/libsmashhit.so
-SHA1-Digest: Bx43OxxKqfI4cTAWn/cAlXswTyw=
+SHA1-Digest: 2AgdXLhRZw3nRjE4PO2eQtMF8UA=
 
 Name: lib/armeabi-v7a/libsmashhit.so
 SHA1-Digest: cHcFS2czlV4JdlNZzWOATsRkjb4=

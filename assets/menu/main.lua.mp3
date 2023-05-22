@@ -200,7 +200,7 @@ function load()
 	
 	inpadUi = mgCreateUi("inpad.xml")
 	mgSetOrigo(inpadUi, "center")
-	mgSetPos(inpadUi, left + 370, centerY)
+	mgSetPos(inpadUi, centerX, centerY)
 	mgSetAlpha(inpadUi, 0)
 
 	gameOverCanvas = mgCreateCanvas(1024, 1024)
@@ -241,7 +241,7 @@ function load()
 
 	dbgButton = mgCreateUi("debug.xml")
 	mgSetOrigo(dbgButton, "topleft")
-	mgSetPos(dbgButton, left+70, top+70)
+	mgSetPos(dbgButton, centerX - 170, bottom - 155)
 	mgSetScale(dbgButton, 1.5, 1.5)
 	
 	dbgMenu = mgCreateUi("debugmenu.xml")
@@ -383,7 +383,7 @@ function load()
 		mgSetScale(IpDrawText[i], 1, 1)
 		mgSetOrigo(IpDrawText[i], "center")
 		mgSetScale(IpDrawText[i], 0.6, 0.8)
-		mgSetPos(IpDrawText[i], left + 98 + ((i - 1) * 139), centerY - 335)
+		mgSetPos(IpDrawText[i], (centerX - 300 + 25) + ((i - 1) * 139), centerY - 336)
 	end
 	
 	loadRanks()
@@ -436,6 +436,9 @@ function load()
 	--	mgSetUiModal(newUi, true)
 	--	mgSetCanvasEnabled(levelCanvas, false)
 	--end
+	
+	-- load input pad
+	loadInpad()
 	
 	statsCounter = 0
 end
@@ -676,10 +679,10 @@ function drawWorld()
 	
 	mgSetZ(0)
 	
-	mgFullScreenColor(0, .2, .25, t)
+	mgFullScreenColor(0, 0, 0, t)
 	
 	mgSetAlpha(top_gradient, t)
-	mgDraw(top_gradient)
+	--mgDraw(top_gradient)
 	mgSetAlpha(bottom_gradient, t)
 	mgDraw(bottom_gradient)
 	
@@ -710,11 +713,7 @@ function drawWorld()
 	if wide > 1.0 then wide = 1.0 end
 	
 	-- TESTMOD: Start button
-	bx, by = centerX, centerY --mgGetCheckpointPos(0)
-	--bx = bx + 15
-	by = by + 50 + 40*wide
-	
-	mgSetPos(buttons[1], bx, by)
+	mgSetPos(buttons[1], centerX, centerY + 40)
 	mgSetAlpha(buttons[1], 1)
 	mgDraw(buttons[1])
 	
@@ -724,16 +723,6 @@ function drawWorld()
 	if f > 100 then
 		mgSetAlpha(logo, t)
 		mgDraw(logo)
-		if mode ~= 1 then
-			if mode == 3 then mgSetCrop(logoMode, 0, 0, 164, 174) end
-			if mode == 0 then mgSetCrop(logoMode, 0, 174, 164, 174*2) end
-			if mode == 2 then mgSetCrop(logoMode, 0, 174*2, 164, 174*3) end		
-			if mode == 4 then mgSetCrop(logoMode, 0, 174*3, 164, 174*4) end		
-			if mode == 5 then mgSetCrop(logoMode, 0, 174*4, 164, 174*5) end		
-			mgSetAlpha(logoMode, t)
-			mgDraw(logoMode)
-		end
-
 	else
 		mgFullScreenColor(0, 0, 0, 1.0-(f-30)/30)
 		drawLoading()
@@ -830,19 +819,12 @@ function drawWorld()
 	end
 	mgDraw(dbgMenu)
 	
-	-- Inpad UI
-	local inpadUiAlpha = mgGetAlpha(inpadUi)
-	
-	if inpadUiAlpha > 0 then
-		mgFullScreenColor(0, 0, 0, 0.6 * inpadUiAlpha)
-	end
-	
-	mgDraw(inpadUi)
-	
-	if inpadUiAlpha > 0 then
+	if mgGetAlpha(inpadUi) > 0 then
+		mgFullScreenColor(0, 0.05, 0.25, 0.4);
+		mgDraw(inpadUi)
+		
 		for i = 1, 4 do
 			mgSetText(IpDrawText[i], IpAddress[i])
-			mgSetAlpha(IpDrawText[i], inpadUiAlpha)
 			mgDraw(IpDrawText[i])
 		end
 	end
@@ -958,12 +940,46 @@ function makeIPString()
 	return IpAddress[1] .. "." .. IpAddress[2] .. "." .. IpAddress[3] .. "." .. IpAddress[4]
 end
 
+-- http://stackoverflow.com/questions/1426954/ddg#7615129
+function splitstring (inputstr, sep)
+        if sep == nil then
+                sep = "%s"
+        end
+        local t={}
+        for str in string.gmatch(inputstr, "([^"..sep.."]+)") do
+                table.insert(t, str)
+        end
+        return t
+end
+
+InpadSaveFile = "/data/data/org.knot126.smashhit.shbttestclient/files/inpad.txt"
+
+function saveInpad()
+	if io ~= nil then
+		f = io.open(InpadSaveFile, "w")
+		f:write(makeIPString())
+		f:close()
+	end
+end
+
+function loadInpad()
+	if io ~= nil then
+		f = io.open(InpadSaveFile, "r")
+		
+		if f ~= nil then
+			IpAddress = splitstring(f:read(), ".")
+			f:close()
+		end
+	end
+end
+
 function handleCommand(cmd)
 	if startsWith(cmd, "handleinpad") then
 		local input = getSecond(cmd)
 		
 		-- Submit command
 		if input == "_SUBMIT_" then
+			saveInpad()
 			handleCommand("hideinpad")
 			mgCommand("level.start level:http://" .. makeIPString() .. ":8000/level?ignore=")
 		-- Undo command
@@ -973,6 +989,11 @@ function handleCommand(cmd)
 		else
 			IpAddress[InputFeild] = IpAddress[InputFeild] .. tostring(input);
 		end
+	end
+	
+	if startsWith(cmd, "handlestart") then
+		saveInpad()
+		mgCommand("level.start level:http://" .. makeIPString() .. ":8000/level?ignore=")
 	end
 	
 	if startsWith(cmd, "setfeild") then
